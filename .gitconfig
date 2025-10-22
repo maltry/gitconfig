@@ -1,0 +1,40 @@
+[user]
+  name = maltry
+  email = 44295761+maltry@users.noreply.github.com
+  signingkey = 23F03A2F8EF2B83D
+[core]
+  autocrlf = input
+  excludesfile = ~/.gitignore_global
+  pager = "bat"
+  untrackedcache = true
+  fsmonitor = true
+  ignorecase = false
+[pull]
+  rebase = true
+[alias]
+  d = diff --color
+  s = status
+  p = push
+  c = commit -m
+  ch = checkout
+  a = add
+  pl = pull
+  r = rebase -i HEAD~10
+  b = branch
+  l = log --graph
+[commit]
+  gpgsign = true
+  verbose = true
+[push]
+  autoSetupRemote = true
+[rebase]
+  autoStash = true
+[rerere]
+  enabled = true
+[column]
+  ui = "auto"
+[branch]
+  sort = "-committerdate"
+[maintenance]
+  auto = true
+
