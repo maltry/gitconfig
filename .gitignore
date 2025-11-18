@@ -1,4 +1,10 @@
 *
-
 !.gitignore
 !.gitconfig
+!.vimrc
+
+!.config/
+!.config/alacritty/
+!.config/alacritty/alacritty.toml
+!.config/starship.toml
+
